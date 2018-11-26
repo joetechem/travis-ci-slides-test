@@ -1,5 +1,8 @@
 language: node_js
 node_js:
-  - 4
+- 4
 after_script:
-  - npm run build -- retire
+- npm run build -- retire
+notifications:
+  slack:
+      secure: FSalufM0yb2q5ul612zotNwAAVtwNobvdGf72ZOj5c4i2hW05RHkMLpvy1ATGtLkJ+sxL3W4NTMRiM4GtEyMJ+YbyZ8Qgyytdja2a9YLQBOSulYB0C2vayXE9fBUQ5pIQqsYvuYJxhX+1r4rB9abarLC4R52uJzkmPxShO2G31+EpopUbKSay0FqaggELcZHGxrWQC9fmHM+9JNlm1BedOYcONLpUWfWYPmyWRvTzm6f1mMo8mnu2H1BtFag5HKMxF8WcD9HQdhUdqzGBCJCO+VhGhQJk2X7oDy3aaZJlA3NAAQcK/dyCBrCgOrYq7T9Iwd+5Wb/ouYFc7pJx0ZB6GHXOx9vJD2Z09vwGBV7sHtUEeM+JxbiChNOfh+knf9K/u6gawy1DdOq8mKeg2Ad8I/p7DaOrlXYEf2iGtjNbrrjGmxCH0pAvksqVE2cQJ+4+IFLopxwI3qcxhN3nniI9Xr3XGYzUixylZsgCxpbmsioAPhJVHzzBHKwYCgLCM64WA8tF7E99iic2GIgXQL718AzYmYYwjfBD6VMZGU7YcWTFN5mU4XtdluFGh1YG0aFslAnRFDtCn//eD1nvyXIHx8keCPB3RX7WJmcF6NtiGzUhCSQO1/hOBHMy/m+dcFkUTm5Qod6kGA+SjTrOY08qLl5GKk/moyVRM5i+UfVIBI=
